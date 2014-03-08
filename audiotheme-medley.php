@@ -44,7 +44,8 @@ if ( ! defined( 'ATMEDLEY_URL' ) ) {
 	define( 'ATMEDLEY_URL', plugin_dir_url( __FILE__ ) );
 }
 
-require( ATMEDLEY_DIR . '/includes/class-atmedley-footer-text.php' );
+require( ATMEDLEY_DIR . '/includes/class-atmedley-credits.php' );
+require( ATMEDLEY_DIR . '/includes/functions.php' );
 
-$atmedley_footer_text = new ATMedley_Footer_Text();
-$atmedley_footer_text->load();
+$atmedley_credits = new ATMedley_Credits();
+$atmedley_credits->load();

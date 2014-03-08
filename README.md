@@ -5,18 +5,18 @@ Assorted enhancements for themes built by AudioTheme. Functionality that isn't e
 
 ## Features
 
-### Modify Footer Text
+### Modify Credits
 
-To change the footer text, visit the Theme Customizer (**Appearance &rarr; Customize**), open the **Theme Footer** section, and add some text to the **Footer Text** field. You may also choose whether your custom text appears before, after, or replaces the default credits.
+To change the theme credits, visit the Theme Customizer (**Appearance &rarr; Customize**), open the **Theme Credits** section, and add some text to the **Credits Text** field. You may also choose whether your custom text appears before, after, or replaces the default credits.
 
-*Tip: Insert {{year}} in your footer text to have the year update automatically.*
+*Tip: Insert {{year}} in your text to have the year update automatically.*
 
 
 ## Frequently Asked Questions
 
 ### Why a plugin?
 
-Certain non-essential features require a fair bit of boilerplate code that has to be duplicated across themes. A plugin allows us to centralize the code and improve the experience.
+Certain non-essential features require a fair bit of boilerplate code that has to be duplicated across themes. A plugin allows us to centralize the code and improve the overall experience.
 
 
 ## Installation
