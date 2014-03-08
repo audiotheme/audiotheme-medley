@@ -1,0 +1,22 @@
+{
+	"name": "AudioTheme/audiotheme-medley",
+	"description": "Assorted enhancements for AudioTheme themes.",
+	"keywords": ["wordpress"],
+	"type": "wordpress-plugin",
+	"homepage": "http://audiotheme.com/",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Brady Vercher",
+			"email": "brady@audiotheme.com",
+			"homepage": "http://audiotheme.com/"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/AudioTheme/audiotheme-medley/issues",
+		"source": "https://github.com/AudioTheme/audiotheme"
+	},
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
