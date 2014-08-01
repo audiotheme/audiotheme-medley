@@ -27,6 +27,7 @@ class ATMedley_Credits {
 		add_filter( $template . '_credits', array( $this, 'credits_text' ), 1000 );
 
 		// Backwards compatibility.
+		add_filter( 'americanaura_footer_text', array( $this, 'credits_text' ), 1000 );
 		add_filter( 'nowell_footer_text', array( $this, 'credits_text' ), 1000 );
 	}
 
