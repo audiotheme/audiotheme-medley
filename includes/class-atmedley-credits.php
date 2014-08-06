@@ -72,11 +72,11 @@ class ATMedley_Credits {
 	}
 
 	/**
-	 * Register Theme Customizer settings.
+	 * Register Customizer settings.
 	 *
 	 * @since 1.0.0
 	 *
-	 * @param WP_Customize_Manager $wp_customize Theme Customizer object.
+	 * @param WP_Customize_Manager $wp_customize Customizer object.
 	 */
 	public function customize_register( $wp_customize ) {
 		require_once( ATMEDLEY_DIR . '/includes/class-atmedley-customize-control-textarea.php' );
@@ -112,7 +112,7 @@ class ATMedley_Credits {
 				'before'  => __( 'Before', 'audiotheme-medley' ),
 				'after'   => __( 'After', 'audiotheme-medley' ),
 				'replace' => __( 'Replace', 'audiotheme-medley' ),
-				'remove' => __( 'Remove All', 'audiotheme-medley' )
+				'remove'  => __( 'Remove All', 'audiotheme-medley' )
 			),
 			'label'    => __( 'Placement', 'audiotheme-medley' ),
 			'section'  => 'atmedley_credits',

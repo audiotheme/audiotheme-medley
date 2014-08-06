@@ -45,7 +45,11 @@ if ( ! defined( 'ATMEDLEY_URL' ) ) {
 }
 
 require( ATMEDLEY_DIR . '/includes/class-atmedley-credits.php' );
+require( ATMEDLEY_DIR . '/includes/class-atmedley-favicon.php' );
 require( ATMEDLEY_DIR . '/includes/functions.php' );
 
 $atmedley_credits = new ATMedley_Credits();
 $atmedley_credits->load();
+
+$atmedley_favicon = new ATMedley_Favicon();
+$atmedley_favicon->load();
